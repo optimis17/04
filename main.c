@@ -5,18 +5,14 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x,y,z,m;
-	int a,b,c;
+	int x,y;
+	printf("input two integers :");
+	scanf("%i %i",&x,&y);
 	
-	x=1;
-	a=3;
-	b=4;
-	c=5;
-	z=2;
-	
-	y=a*x*x+b*x+c;
-	m=(x+y+z)/3;
-	
-	printf("y=%d,m=%d",y,m);
+	printf("+ result is %i\n", x+y);
+	printf("- result is %i\n", x-y);
+	printf("* result is %i\n", x*y);
+	printf("/ result is %i\n", x/y);
+	printf("%% result is %i\n", x%y);
 	return 0;
 }
